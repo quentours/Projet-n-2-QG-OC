@@ -233,11 +233,22 @@ a {
     width: 65%;
 }
 
+.hebergements-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px ;
+    margin-bottom: 20px;
+
+}
+
 .hebergements-card .card {
     display: flex;
     flex-direction: column;
-    width: 250px;
+     width: 250px;
     height: 197px;
+    margin-top: 20px;
 }
 
 .hebergements-card img {
@@ -270,6 +281,15 @@ a {
 
 .hebergements-card .fa-solid {
     font-size: 13.25px;
+}
+
+.hebergements-card h3 {
+    font-size: 16px;
+}
+
+#afficher-plus {
+    font-size: 18px;
+    font-weight: 700;
 }
 
 /****** Populaires ***********/
