@@ -22,19 +22,16 @@ ul {
 
 nav li {
     display: inline;
-    position: relative;
-    bottom: 10px;
 }
 
-.activites {
+#nav-activites {
     margin-left: 50px;
 }
 
 header a:hover {
     border-top: #0065FC 2px solid;
     color: #0065FC;
-    padding-top: 10px;
-    
+    padding-top: 13px;
 }
 
 /***** Recherche *****/
@@ -71,9 +68,15 @@ header a:hover {
     color: black;
  }
 
+ form button {
+    display: none;
+ }
+
+
+
  ::placeholder {
     /* Les modifications du placeholder 
-    ne sont pas completement prise en charge
+    ne sont pas completement prises en charge
     sous Firefox */
     font-weight: bold;
     color: black;
@@ -121,6 +124,10 @@ header a:hover {
     flex-direction: row;
     height: 50px;
     margin: 15px 0 15px 0;
+ }
+
+ .filter:hover {
+    background-color: #deebff;
  }
 
  .filter-pack {
@@ -194,8 +201,9 @@ header a:hover {
 body {
     display: flex;
     justify-content: center;
-     max-width: 1440px;
-     margin:auto;
+    max-width: 1440px;
+    margin:auto;
+    min-width: 320px;
 }
 
 .main-container {
