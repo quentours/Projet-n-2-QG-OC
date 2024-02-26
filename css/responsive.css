@@ -11,10 +11,14 @@
         box-sizing: border-box;
     }
 
+    /* Header responsive tablette */
+
     header {
         width: 100%;
         box-sizing: border-box;
     }
+
+    /* Filtre responsive tablette */
 
     .filtres {
         display: flex;
@@ -23,6 +27,7 @@
         margin-bottom: 100px;
     }
 
+    /* Hébergements et populaire responsive tablette */
 
     .hebergements-and-populaires {
         flex-direction: column;
@@ -54,6 +59,8 @@
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    /* Activités responsive tablette */
 
     .activities {
         width: 100%;
@@ -90,6 +97,8 @@
         justify-content: space-between;
     }
 
+    /* Footer responsive tablette */
+
     footer {
         display: flex;
         flex-direction: row;
@@ -103,6 +112,132 @@
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
+@media (max-width: 768px) {
+
+    .main-container {
+        padding: 0;
+    }
+
+    /* Header responsive mobile */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        padding-bottom: 13px;
+        width: 100%;
+        text-align: center;
+    }
+
+    header img {
+        margin-top: 60px;
+
+    }
+
+    nav {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    nav a {
+        width: 100%;
+    }
+
+    header a:hover {
+        border-top: none;
+        color: #0065FC;
+        padding: 0;
+    }
+
+    header li {
+        border-bottom: 2px solid #f2f2f2;
+    }
+
+    header li:hover {
+        border-bottom: #0065FC 2px solid;
+    }
+
+    #nav-activites {
+        margin: 0;
+    }
+
+    /* Reherche responsive mobile */
+
+    .recherche div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 89%;
+        margin: 0 5% 0 5%;
+    }
+
+    .recherche h2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .recherche form {
+        width: 89% ;
+        margin: 0 5% 0 5%;
+        border: 1px solid #f2f2f2 ;
+        border-radius: 15px;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    form .search-1 {
+        height: 49px;
+        width: 50px;
+        flex-shrink: 0;
+    }
+
+    form .search-3 {
+        display: none;
+    }
+
+    form button {
+        display: flex;
+        width: 49px;
+        width: 49px;
+        background-color: #0065FC;
+        border-radius: 15px;
+        border: none;
+        filter: drop-shadow(0 4px 4px rgba(0, 0 ,0, 0.1));
+        }
+
+    .search-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white !important;
+        margin: auto;
+        height: 17px;
+        width: 17px;
+    }
+
+    .search-2 {
+        border: none;
+    }
+
+    /* Filtres responsive Mobile */
+
+
+
 }
+
