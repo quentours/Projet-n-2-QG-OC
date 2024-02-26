@@ -128,6 +128,7 @@ header a:hover {
 
  .filter:hover {
     background-color: #deebff;
+
  }
 
  .filter-pack {
@@ -145,6 +146,7 @@ header a:hover {
     padding: 4px 19px 4px 19px;
     border: 2px solid #d9d9d9;
     border-radius: 50px;
+    cursor: default;
   
  }
 
