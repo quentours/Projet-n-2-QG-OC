@@ -41,12 +41,14 @@
             
             <div class="filtres">
                     <p class="filter-title">Filtres</p>
+                    <div class="responsive-filter">
                     <div class="filter-pack">
-                <div class="filter"><i class="fa-solid fa-money-bill-wave"></i><p>Économique</p></div>
+                <div class="filter" id="eco"><i class="fa-solid fa-money-bill-wave"></i><p>Économique</p></div>
                 <div class="filter"><i class="fa-solid fa-person"></i><p>Familial</p></div>
-                <div class="filter"><i class="fa-solid fa-heart"></i><p>Romantique</p></div>
-                <div class="filter"><i class="fa-solid fa-fire"></i><p>Nos pépites</p></div>
+                <div class="filter" id="roma"><i class="fa-solid fa-heart"></i><p>Romantique</p></div>
+                <div class="filter" id="pepi"><i class="fa-solid fa-fire"></i><p>Nos pépites</p></div>
             </div>
+        </div>
         </div>
         <!-- Icône identique à la maquette uniquement disponible en version pro sur Font Awesome -->
         <div class="infobar"><i class="fa-solid fa-circle-info"></i><p>Plus de 500 logements sont disponibles dans cette ville</p></div>
@@ -56,7 +58,7 @@
             
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
-                    <h2>Hébergements à Marseille </h2>
+                    <h2>Hébergements à Marseille</h2>
                     <div class="hebergements-card">
                         <a href="">
                             <article class="card">
@@ -153,7 +155,7 @@
                                 </div>
                             </article>
                         </a>
-                        <a href="">
+                        <a href="" id="le-panier">
                             <article class="card">
                                 <img src="./images/hebergements/nicate-lee.jpg" alt="Chambre d'hotel rustique et conviviale">
                                 <div class="card-content">
